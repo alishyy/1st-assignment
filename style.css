@@ -1,0 +1,299 @@
+* {
+
+  padding: 0%;
+  margin: 0%;
+  font-family: Arial;
+
+}
+.logo {
+ 
+display: inline-block;
+position: absolute;
+left: 200px;
+top: 7%;
+
+}
+
+
+.nav{
+
+
+display: block;
+margin: 1px auto;
+width: 40%;
+top: 4%;
+margin-left:25%;
+padding: 4%;
+
+
+
+}
+
+.search {
+  width: 25%;
+display: inline-block;
+position: absolute;
+right: 2px;
+top: 5%;
+
+}
+
+.search ul  {
+display: inline-block;
+
+}
+.search ul li {
+list-style: none;
+margin: 30%;
+
+
+}
+.search ul li a {
+
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.search ul li a:hover {
+
+background-size: 20%;
+background-color: black;
+  border-radius: 40px;
+  color: white;
+
+}
+
+
+.left{
+  display: inline-block;
+  margin: -3%;
+  margin-left:8%;
+  border-radius: 50px;
+
+}
+
+.nav ul {
+  display: inline-block;
+
+}
+.nav ul li {
+
+ 
+  list-style: none;
+  
+}
+.nav ul li a {
+text-decoration: none;
+margin: 19px;
+color: black;
+font-weight: bolder;
+
+
+
+}
+.nav ul li a:hover {
+background-size: 20%;
+background-color: black;
+  border-radius: 40px;
+  color: white;
+}
+/* header end */
+/* slider start */
+
+.slider {
+
+  width: 79%;
+  height: auto;
+  border: 3px solid rgb(24, 21, 21);
+  margin-left: 11%;
+}
+/* 2nd navbor */
+.mid {
+  width: 79%;
+  height: 100vh;
+  /* border: 2px solid black; */
+  margin-left: 11%;
+}
+.mid h1 {
+
+text-align: center;
+font-size: 400%;
+
+}
+.mid ul {
+text-align: center;
+display: inline-block;
+margin-left: 230px;
+
+
+}
+.mid ul li {
+list-style: none;
+margin-top :30%;
+
+
+
+}
+.mid ul li a {
+
+text-decoration: none;
+color: black;
+font-size: 100%;
+font-weight: bold;
+
+
+}
+/* 2nd navbor end */
+.main{
+width: 100%;
+
+
+/* background-color: gainsboro; */
+ display: flex; 
+
+}
+.cricket {
+
+  width: 50%;
+height: 80vh;
+border-radius: 50px;
+}
+.imgesbg{
+border-radius: 40px;
+
+}
+.fourdiv{
+
+  width: 50%;
+height: 70vh;
+/* background-color:cornflowerblue; */
+display: flex;
+
+
+}
+
+.container {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 40px;
+}
+.one {
+  background-image: url(images/samsung-galaxy-removebg-preview.png);
+  width: 370px;
+  height: 40vh;
+  border-radius: 40px;
+  background-size: cover; 
+  overflow: hidden;
+  border: 6px solid black;
+  position: relative;
+  object-fit: cover;
+ 
+} 
+
+
+.one h4 {
+  margin-left: 20%;
+  margin-top: 50%;
+  font-weight: bolder;
+  font-size: xx-large;
+  
+}
+
+.one button{
+
+  margin-left: 40%;   
+  width: 20%;
+  height: 10%;
+  color: black;
+  background-color: azure;
+  border-radius: 40px; 
+
+} 
+
+.one p{
+  margin-left: 15%; 
+  padding: 4%;
+  color: whitesmoke;
+  font-weight: bold;
+  display: inline-flex;
+}
+.one p:after{
+
+  
+  
+}
+ 
+
+.two {
+  width: 370px;
+  height: 40vh;
+  background-image: url(images/);
+  border-radius: 40px;
+}
+.three {
+  width: 370px;
+  height: 40vh;
+  background-color: purple;
+  border-radius: 40px;
+}
+.four {
+  width: 370px;
+  height: 40vh;
+  background-color: yellow;
+  border-radius: 40px;
+}
+/* 3rd session */
+
+.mobile{
+
+  width: 100%;
+  height: 75vh;
+  background-image: url(images/boy.jpg);
+  margin-top: 5%; 
+  font-family: Arial,sans-serif;
+
+}
+.mobile a button {
+  margin-top: 2%;
+  margin-left: 9%;  
+ padding: 4px 2px 4px 2px;
+  display: inline-block;
+  color: black;
+  font-weight: bolder;
+  border: none;
+}
+.mobile h2{
+
+  text-align: center;
+  margin-top: 30%;
+  font-size: xx-large;
+
+  
+  
+}
+.mobile ul {
+
+  display: inline-flex;
+  
+}
+.btn{
+  width: 80px;
+  height: 40px;
+  border-radius: 40px;
+margin-left:45%;
+margin-top: 2%;
+background-color: black;
+color: aliceblue;
+
+
+}
+.btn2{
+
+background-color: black;
+color: aliceblue;
+width: 80px;
+height: 40px;
+border-radius: 40px;
+
+}
